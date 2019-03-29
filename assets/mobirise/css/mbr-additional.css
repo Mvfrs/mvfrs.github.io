@@ -1382,8 +1382,19 @@ body {
     flex: auto!important;
   }
 }
+.jq-selectbox li:hover,
+.jq-selectbox li.selected {
+  background-color: #149dcc;
+  color: #ffffff;
+}
+.jq-selectbox .jq-selectbox__trigger-arrow {
+  border-top-color: contrast(currentColor, #000000, #ffffff, 30%);
+}
+.jq-selectbox:hover .jq-selectbox__trigger-arrow {
+  border-top-color: #149dcc;
+}
 .cid-riBAMHKGAR {
-  background-image: url("../../../assets/images/dfes-1-of-495-325-2000x1500.jpg");
+  background-image: url("../../../assets/images/img-235-2000x1500.jpg");
 }
 .cid-riHMRP7XSw {
   padding-top: 0px;
